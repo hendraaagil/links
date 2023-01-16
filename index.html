@@ -2,12 +2,27 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Links | Hendra Agil</title>
+    <title><%= title %></title>
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+    <link rel="canonical" href="<%= siteUrl %>" />
+    <meta name="description" content="<%= description %>" />
+    <meta property="og:title" content="<%= title %>" />
+    <meta property="og:description" content="<%= description %>" />
+    <meta property="og:url" content="<%= siteUrl %>" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="<%= siteUrl %>/og-image.png" />
+    <meta property="og:image:alt" content="<%= title %>" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
   </head>
   <body>
-    <div id="root" class="bg-gradient-to-br from-brand-blue to-brand-light"></div>
+    <div
+      id="root"
+      class="bg-gradient-to-br from-brand-blue to-brand-light text-brand-dark"
+    ></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
