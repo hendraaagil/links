@@ -20,14 +20,14 @@ export const Link = ({ Icon, link, title }: LinkProps) => (
   >
     <Icon
       className={clsx(
-        'absolute -ml-10 mt-6 h-24 w-24 text-brand-blue',
+        'absolute -ml-10 mt-6 h-24 w-24 text-brand-primary',
         'opacity-25 transition-opacity group-hover:opacity-80'
       )}
     />
     <p
       className={clsx(
         'ml-20 text-lg font-semibold',
-        'group-hover:text-brand-blue group-hover:underline'
+        'group-hover:text-brand-primary group-hover:underline'
       )}
     >
       {title}
