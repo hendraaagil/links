@@ -17,6 +17,7 @@ export const Link = ({ Icon, link, title }: LinkProps) => (
     )}
     target="_blank"
     rel="noopener noreferrer"
+    data-umami-event={`${title} Button`}
   >
     <Icon
       className={clsx(
