@@ -7,6 +7,8 @@ import {
   FaLinkedin,
   FaTelegram,
   FaTwitter,
+  FaTwitch,
+  FaYoutube,
 } from 'react-icons/fa'
 
 export const links = [
@@ -49,5 +51,15 @@ export const links = [
     Icon: FaTwitter,
     name: 'Twitter',
     url: 'https://twitter.com/hendraaagil',
+  },
+  {
+    Icon: FaTwitch,
+    name: 'Twitch',
+    url: 'https://twitch.tv/hendraaagil',
+  },
+  {
+    Icon: FaYoutube,
+    name: 'YouTube',
+    url: 'https://youtube.com/@hendraaagil',
   },
 ]
