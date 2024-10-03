@@ -6,13 +6,6 @@ module.exports = {
       sans: ['Plus Jakarta Sans', 'sans-serif'],
     },
     extend: {
-      colors: {
-        brand: {
-          primary: '#2a61cc',
-          dark: '#1d1f28',
-          light: '#eff4f6',
-        },
-      },
       screens: {
         xs: '425px',
       },
