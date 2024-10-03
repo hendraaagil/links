@@ -15,9 +15,9 @@ export default ({ mode }) => {
         inject: {
           data: {
             siteUrl: env.VITE_SITE_URL,
-            title: 'Links | Hendra Agil',
+            title: 'Links / Hendra Agil',
             description:
-              'A software developer. Born and live in Karanganyar, Central Java, Indonesia.',
+              'A software developer specializing in JavaScript and web development.',
           },
         },
       }),
