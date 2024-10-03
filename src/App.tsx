@@ -1,6 +1,6 @@
 import clsx from 'clsx'
 import { FiExternalLink } from 'react-icons/fi'
-import { ReactComponent as Logo } from './assets/ha-logo.svg'
+import Logo from './assets/ha-logo.svg?react'
 import { Link } from './components'
 import { links } from './data'
 
@@ -11,7 +11,7 @@ const App = () => (
       'flex flex-col items-center justify-center'
     )}
   >
-    <div className="rounded-full bg-brand-light bg-opacity-25 p-5 shadow">
+    <div className="rounded-full border border-slate-200 bg-slate-50 bg-opacity-5 p-5">
       <Logo className="h-16 w-16" />
     </div>
     <section className="my-12 flex w-full flex-col space-y-6">
