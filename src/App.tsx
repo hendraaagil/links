@@ -24,8 +24,8 @@ const App = () => (
         />
       ))}
     </section>
-    <footer className="flex flex-col items-center space-y-2 text-sm font-medium">
-      <p>&copy;{new Date().getFullYear()} by Hendra Agil</p>
+    <footer className="flex flex-col items-center space-y-2 text-sm">
+      <p>&copy; {new Date().getFullYear()} by Hendra Agil</p>
       <hr className="w-full border-slate-800" />
       <a
         href="https://github.com/hendraaagil/links"

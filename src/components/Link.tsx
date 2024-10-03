@@ -28,7 +28,7 @@ export const Link = ({ Icon, link, title }: LinkProps) => (
     />
     <p
       className={clsx(
-        'ml-20 text-base font-semibold',
+        'ml-20 font-medium tracking-wide',
         'transition-colors duration-300',
         'group-hover:text-blue-500'
       )}
