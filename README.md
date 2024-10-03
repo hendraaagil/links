@@ -4,7 +4,7 @@
 
 ## Developing
 
-Node.js `>= 16.x` setup with [yarn](https://yarnpkg.com/) is recommended.
+Node.js `>= 18.x` setup with [yarn](https://yarnpkg.com/) is recommended.
 
 ```bash
 # duplicate & fill environment file
@@ -28,15 +28,13 @@ Change your:
 
 - Title and description in [here](vite.config.ts#L16-L21).
 
-- Font in [here](tailwind.config.cjs#L5-L7) and change the import in [main.tsx](src/main.tsx#L5-L12) file.
+- Font in [here](tailwind.config.cjs#L7-L9) and change the import in [main.tsx](src/main.tsx#L5-L6) file.
 
   This project is using [fontsource](https://fontsource.org/), follow the docs if you get stuck.
 
-- Color theme in [here](tailwind.config.cjs#L10-L14).
-
 - List of links in [here](src/data/links.ts).
 
-  The icon is using [react-icons](https://react-icons.github.io/react-icons/), find your favorite icons in there.
+  The icon is using [react-icons/fa6](https://react-icons.github.io/react-icons/icons/fa6/), find your favorite icons in there.
 
 - Image assets:
 
