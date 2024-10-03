@@ -12,8 +12,8 @@ export const Link = ({ Icon, link, title }: LinkProps) => (
     href={link}
     className={clsx(
       'group relative flex w-full items-center',
-      'overflow-hidden rounded-md bg-brand-light bg-opacity-25 p-4 shadow',
-      'transition-transform hover:-translate-y-1'
+      'overflow-hidden p-4 border border-slate-800',
+      'transition-[background-color,border-radius] duration-300 hover:rounded-lg hover:bg-slate-50 hover:bg-opacity-5'
     )}
     target="_blank"
     rel="noopener noreferrer"
@@ -21,14 +21,16 @@ export const Link = ({ Icon, link, title }: LinkProps) => (
   >
     <Icon
       className={clsx(
-        'absolute -ml-10 mt-6 h-24 w-24 text-brand-primary',
-        'opacity-25 transition-opacity group-hover:opacity-80'
+        'absolute -ml-10 mt-4 h-24 w-24 text-blue-500',
+        'opacity-25 transition-[opacity,transform] duration-300',
+        'group-hover:opacity-100 group-hover:scale-[0.85]'
       )}
     />
     <p
       className={clsx(
         'ml-20 text-base font-semibold',
-        'group-hover:text-brand-primary group-hover:underline'
+        'transition-colors duration-300',
+        'group-hover:text-blue-500'
       )}
     >
       {title}

@@ -11,10 +11,10 @@ const App = () => (
       'flex flex-col items-center justify-center'
     )}
   >
-    <div className="rounded-full border border-slate-200 bg-slate-50 bg-opacity-5 p-5">
+    <div className="rounded-full border border-slate-800 p-5">
       <Logo className="h-16 w-16" />
     </div>
-    <section className="my-12 flex w-full flex-col space-y-6">
+    <section className="my-12 flex w-full flex-col space-y-4">
       {links.map((link) => (
         <Link
           Icon={link.Icon}
@@ -26,7 +26,7 @@ const App = () => (
     </section>
     <footer className="flex flex-col items-center space-y-2 text-sm font-medium">
       <p>&copy;{new Date().getFullYear()} by Hendra Agil</p>
-      <hr className="w-full border-brand-dark" />
+      <hr className="w-full border-slate-800" />
       <a
         href="https://github.com/hendraaagil/links"
         className="flex items-center hover:underline"
