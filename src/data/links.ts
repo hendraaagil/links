@@ -1,19 +1,18 @@
 import {
   FaDiscord,
-  FaFacebookF,
   FaGithub,
-  FaHome,
+  FaHouse,
   FaInstagram,
   FaLinkedin,
   FaTelegram,
-  FaTwitter,
   FaTwitch,
   FaYoutube,
-} from 'react-icons/fa'
+  FaXTwitter,
+} from 'react-icons/fa6'
 
 export const links = [
   {
-    Icon: FaHome,
+    Icon: FaHouse,
     name: 'Personal Website',
     url: 'https://hendraaagil.dev',
   },
@@ -21,11 +20,6 @@ export const links = [
     Icon: FaDiscord,
     name: 'Discord Server',
     url: 'https://discord.gg/VVvmVFyVE6',
-  },
-  {
-    Icon: FaFacebookF,
-    name: 'Facebook',
-    url: 'https://facebook.com/hendraaagil',
   },
   {
     Icon: FaGithub,
@@ -48,8 +42,8 @@ export const links = [
     url: 'https://t.me/hendraaagil',
   },
   {
-    Icon: FaTwitter,
-    name: 'Twitter',
+    Icon: FaXTwitter,
+    name: 'X (Twitter)',
     url: 'https://twitter.com/hendraaagil',
   },
   {
