@@ -303,10 +303,10 @@
   resolved "https://registry.yarnpkg.com/@esbuild/win32-x64/-/win32-x64-0.21.5.tgz#acad351d582d157bb145535db2a6ff53dd514b5c"
   integrity sha512-tQd/1efJuzPC6rCFwEvLtci/xNFcTZknmXs98FYDfGE4wP9ClFV98nyKrzJKVPMhdDnjzLhdUyMX4PsQAPjwIw==
 
-"@fontsource/plus-jakarta-sans@^5.1.0":
+"@fontsource/gabarito@^5.1.0":
   version "5.1.0"
-  resolved "https://registry.yarnpkg.com/@fontsource/plus-jakarta-sans/-/plus-jakarta-sans-5.1.0.tgz#bf4e15503d9dddcb28d808b8ba7593686f3f1f3f"
-  integrity sha512-o6qReKG0r7+YyNzMe0CbIC4u8nsLwUHRe3btQU+cYI/UH8+Cbvv278WICqEuj7zsBRu1eiuBgvBG17+cU+PJIw==
+  resolved "https://registry.yarnpkg.com/@fontsource/gabarito/-/gabarito-5.1.0.tgz#be5b4d269d0a4a031990865029ae730622164455"
+  integrity sha512-iz0anLrBxYyOjK3gq6pZ1VePhljhtgMALF77J5GjdvhEoNZSEnbExsR43tlLl3ph8ssG/XHsTLvOgftwFboJ5g==
 
 "@isaacs/cliui@^8.0.2":
   version "8.0.2"
