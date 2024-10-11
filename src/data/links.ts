@@ -6,8 +6,9 @@ import {
   FaLinkedin,
   FaTelegram,
   FaTwitch,
-  FaYoutube,
+  FaUserGroup,
   FaXTwitter,
+  FaYoutube,
 } from 'react-icons/fa6'
 
 export const links = [
@@ -22,14 +23,14 @@ export const links = [
     url: 'https://discord.gg/VVvmVFyVE6',
   },
   {
+    Icon: FaUserGroup,
+    name: 'Book Session (EN/ID)',
+    url: 'https://cal.com/hendraaagil/30-minutes-session',
+  },
+  {
     Icon: FaGithub,
     name: 'GitHub',
     url: 'https://github.com/hendraaagil',
-  },
-  {
-    Icon: FaInstagram,
-    name: 'Instagram',
-    url: 'https://instagram.com/hendraaagil',
   },
   {
     Icon: FaLinkedin,
@@ -40,6 +41,11 @@ export const links = [
     Icon: FaTelegram,
     name: 'Telegram',
     url: 'https://t.me/hendraaagil',
+  },
+  {
+    Icon: FaInstagram,
+    name: 'Instagram',
+    url: 'https://instagram.com/hendraaagil',
   },
   {
     Icon: FaXTwitter,
