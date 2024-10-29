@@ -1,4 +1,5 @@
 import {
+  FaBluesky,
   FaDiscord,
   FaGithub,
   FaHouse,
@@ -46,6 +47,11 @@ export const links = [
     Icon: FaInstagram,
     name: 'Instagram',
     url: 'https://instagram.com/hendraaagil',
+  },
+  {
+    Icon: FaBluesky,
+    name: 'Bluesky',
+    url: 'https://bsky.app/profile/hendraaagil.dev',
   },
   {
     Icon: FaXTwitter,
