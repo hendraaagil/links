@@ -17,7 +17,7 @@ export default ({ mode }) => {
             siteUrl: env.VITE_SITE_URL,
             title: 'Links / Hendra Agil',
             description:
-              'A software developer specializing in JavaScript and web development.',
+              'A frontend-focused software engineer with a full-stack mindset and a passion for crafting digital experiences that truly solve problems.',
           },
         },
       }),

@@ -4,20 +4,20 @@
 
 ## Developing
 
-Node.js `>= 18.x` setup with [yarn](https://yarnpkg.com/) is recommended.
+Node.js `>= 22.x` setup with [pnpm](https://pnpm.io/) is recommended.
 
 ```bash
 # duplicate & fill environment file
 cp .env.example .env.local
 
 # install dependencies
-yarn
+pnpm install
 
 # serve with hot reload at localhost:3000
-yarn dev
+pnpm dev
 
 # build for production
-yarn build
+pnpm build
 ```
 
 ## Make your own links
