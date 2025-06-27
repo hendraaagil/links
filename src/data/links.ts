@@ -5,6 +5,8 @@ import {
   FaHouse,
   FaInstagram,
   FaLinkedin,
+  FaMoneyBillWave,
+  FaMugHot,
   FaTelegram,
   FaTwitch,
   FaUserGroup,
@@ -17,6 +19,16 @@ export const links = [
     Icon: FaHouse,
     name: 'Personal Website',
     url: 'https://hendraaagil.dev',
+  },
+  {
+    Icon: FaMugHot,
+    name: 'Ko-fi',
+    url: 'https://ko-fi.com/hendraaagil',
+  },
+  {
+    Icon: FaMoneyBillWave,
+    name: 'Saweria (ID)',
+    url: 'https://saweria.co/hendraaagil',
   },
   {
     Icon: FaDiscord,
