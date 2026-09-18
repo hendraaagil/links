@@ -63,7 +63,7 @@ export const links = [
   {
     Icon: FaBluesky,
     name: 'Bluesky',
-    url: 'https://bsky.app/profile/hendraaagil.dev',
+    url: 'https://bsky.app/profile/hndr.xyz',
   },
   {
     Icon: FaXTwitter,
